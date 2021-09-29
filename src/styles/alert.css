@@ -1,0 +1,25 @@
+.alert {
+  padding: 1rem 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 0px 1px 1px #c1bfbf;
+  margin-bottom: 1.5rem;
+}
+
+.alert-success {
+  background: #3bff45;
+}
+
+.alert-danger {
+  background: #fd4010;
+}
+
+.icon > .close {
+    font-size : 1.5rem;
+    cursor: pointer;
+}
+

@@ -1,0 +1,144 @@
+body  {
+  background-color: #170202;
+  height: 100vh;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.authentication header {
+    padding: 1.5rem;
+}
+
+
+.login {
+  position: absolute;
+  top: 50%;
+  left : 50%;
+  transform: translate(-50% , -50%);
+}
+
+.login h4 {
+    text-align: center;
+    color:#fff;
+}
+
+.login section {
+    background-color: #100202;
+    min-width : 300px;
+    height: auto;
+    padding: 1.5rem 1rem;
+    box-shadow: 2px 1px 20px 4px #18191a3a;
+}
+
+.login section .auth-provider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.login section .auth-provider p {
+    padding: 1rem;
+    margin: 0 .5rem;
+    display: inline;
+    font-size: .8rem;
+    cursor: pointer;
+    width: 90%;
+    text-align: center;
+    color: white;
+    border: 1px solid #9089f0;
+}
+
+
+.login-card-body {  
+   padding: inherit;
+}
+
+
+.login .form-control input {
+    width: 100%;
+    padding: .8rem;
+    margin: 10px 0;
+    background-color: #1a0707;
+    outline: none;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    border: 1px solid transparent;
+}
+
+.login .form-control input:hover {
+    border : 1px solid rgb(17, 122, 241);
+    transition: all .4s linear;
+}
+
+.login .form-control input:focus {
+    border: 1px solid #9089F0;
+    transition: all .3s linear;
+}
+
+
+.login-card-body input::placeholder {
+    color: grey;
+    font-size: 10px;
+}
+
+.login-card-body .form-control label {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.login section .auth-provider p:nth-child(2) span {
+    color: rgb(0, 81, 255);
+}
+
+section .auth-provider p span{
+    font-size: .8rem;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.divider {
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 10px;
+}
+
+.login-card-body form button {
+    width: 100%;
+    padding: .8rem;
+    border-radius: 0px;
+    margin-top: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #9089F0;
+    color: white;
+}
+
+.login-card-footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+.login-card-footer p span {
+    color: #9089F0;
+    margin-left: 4px;
+}
+
+@media  screen and (min-width : 40em) {
+    .login section {
+        background-color: #100202;
+        width : 400px;
+        height: auto;
+        padding: 1.5rem 1rem;
+        box-shadow: 2px 1px 20px 4px #18191a3a;
+    }
+    
+}
+
+  .error-text {
+    font-size: .8rem;
+    color: red;
+  }
